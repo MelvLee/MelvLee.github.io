@@ -21,11 +21,11 @@ To start using GitHub Pages, determine if you need to create a new repository or
 
 To enable GitHub Pages for a public repository, click on the **Settings** tab to open the **Settings** page of the repository. In the **Settings** page, scroll down until you see the **GitHub Pages** section.
 
-![GitHub Pages settings]('/img/github-pages-settings.png')
+![GitHub Pages settings](/img/github-pages-settings.png)
 
 The screenshot above shows the **GitHub Pages** section of an empty repository. A message is shown that GitHub Pages is currently disabled because the repository is empty. Instead of creating some content first, you can let GitHub Pages do that for you. Click on <kbd>Choosing a theme</kbd> to open the **Team chooser**. On the **Team chooser** page, select a theme and click on <kbd>Select theme</kbd>. The GitHub editor will now be shown with markdown content for the index.md file. For now, click <kbd>Commit changes</kbd> to create the index.md file and enable GitHub Pages for the repository. Go back to the **GitHub Pages** section on the **Settings** page. You will now find a link to your newly published website.
 
-![GitHub Pages enabled settings]('/img/github-pages-enabled-settings.png')
+![GitHub Pages enabled settings](/img/github-pages-enabled-settings.png)
 
 Click on the link to navigate to the generated website.
 
