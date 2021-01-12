@@ -34,9 +34,9 @@ Click on the link to navigate to the generated website.
 
 You can use a pre-defined theme to personalize your website. A list of GitHub Pages supported themes can be found [here](https://pages.github.com/themes/). You can choose any of these themes using the **Team chooser** or you can assign the theme name to `theme` property in the **_config.yml** file.  
 You can also use a [Jekyll theme hosted on GitHub](https://github.com/topics/jekyll-theme). Many of the GitHub hosted Jekyll themes can be used by replacing the `theme` property in the **_config.yml** file with the `remote_theme` property. The value of the property must be set to the name of the repository in the `<username>\<repositoryname>` format if you want to use the latest version of the theme or `<username>\<repositoryname>@<release>` if you want use a specific release of the theme.  
-The table below contains examples of GitHub hosted Jekyll themes and their corresponding `remote_theme` property value.
+The table below contains examples of GitHub hosted Jekyll themes and their corresponding `remote_theme` value.
 
-| theme | remote_theme value | homepage layout |
+| theme | remote_theme | homepage layout |
 |---|---| --- |
 | [minima](https://github.com/jekyll/minima) | jekyll/minima@v2.5.1 | home |
 | [Hydejack](https://github.com/hydecorp/hydejack) | hydecorp/hydejack@v9.0.5 | home |
@@ -44,9 +44,37 @@ The table below contains examples of GitHub hosted Jekyll themes and their corre
 | [Sleek](https://github.com/janczizikow/sleek) | janczizikow/sleek@v0.1-alpha | default |
 | [Oscailte — A Jekyll theme](https://github.com/coogie/oscailte) | coogie/oscailte@3.0.3 | home |
 
+To use, for example, version 3.0.3 of the `Oscailte` theme as your website theme, replace `theme: <current theme>` with `remote_theme: coogie/oscailte@3.0.3`
+
 ## Configure your GitHub Pages website for blogging
 
 Jekyll makes it easy to use your GitHub hosted website for blogging. All you have to do is create your post in the `_posts` folder and use the format `yyyy-MM-dd-title.md` for the name of a post file.
+
+To create your first blog post
+
+- navigate to the **Code** page of your repository
+- click <kbd>Add file</kbd> and select `Create new file` option to open the file editor for your repository
+- in the file editor, enter `_posts/2021-01-01-my-first-blog-post.md` in the **Name your file...** textbox
+- add some text to the **\<>Edit new file** textbox
+- click <kbd>Commit new file</kbd> to create the file in the `_posts` folder
+
+Behind the scenes, Jekyll will now regenerate the content for your website and after a few seconds your newly created blog post will be available at `https://\<your-username>.github.io/2021/01/01/my-first-blog-post`.
+
+The themes in the table listed above have a layout template that displays an index of the files in the _posts folder. The name of that layout template is listed in the *homepage layout* column. To use this layout for your home page
+
+- navigate to the **Code** page of your repository
+- open the *index.md* file and click on the **pencil** icon to edit the file
+- add the following [front matter](https://jekyllrb.com/docs/front-matter/) lines at the beginning of the file. Use the name in the *homepage layout* column in the table listed above as the layout template
+
+  ``` front matter
+  ---
+  layout: home
+  ---
+  ```
+
+- click <kbd>Commit changes</kbd> to save the changes to the file
+
+Wait a few seconds for Jekyll to regenerate your website and navigate to the home page of your website to see a list of your posts.
 
 [1]: https://pages.github.com
 [2]: https://jekyllrb.com/
