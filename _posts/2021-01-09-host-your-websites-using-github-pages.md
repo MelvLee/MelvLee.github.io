@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [Jekyll, GitHub Pages]
 ---
 
 # Host your websites using GitHub Pages
@@ -35,29 +36,17 @@ You can use a pre-defined theme to personalize your website. A list of GitHub Pa
 You can also use a [Jekyll theme hosted on GitHub](https://github.com/topics/jekyll-theme). Many of the GitHub hosted Jekyll themes can be used by replacing the `theme` property in the **_config.yml** file with the `remote_theme` property. The value of the property must be set to the name of the repository in the `<username>\<repositoryname>` format if you want to use the latest version of the theme or `<username>\<repositoryname>@<release>` if you want use a specific release of the theme.  
 The table below contains examples of GitHub hosted Jekyll themes and their corresponding `remote_theme` property value.
 
-| theme | remote_theme value |
-|---|---|
-| [minima](https://github.com/jekyll/minima) | jekyll/minima@v2.5.1 |
-| [Hydejack](https://github.com/hydecorp/hydejack) | hydecorp/hydejack@v9.0.5 |
-| [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll) | daattali/beautiful-jekyll@5.0.0 |
-| [Sleek](https://github.com/janczizikow/sleek) | janczizikow/sleek |
-| [Oscailte — A Jekyll theme](https://github.com/coogie/oscailte) | coogie/oscailte@3.0.3 |
+| theme | remote_theme value | homepage layout |
+|---|---| --- |
+| [minima](https://github.com/jekyll/minima) | jekyll/minima@v2.5.1 | home |
+| [Hydejack](https://github.com/hydecorp/hydejack) | hydecorp/hydejack@v9.0.5 | home |
+| [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll) | daattali/beautiful-jekyll@5.0.0 | home |
+| [Sleek](https://github.com/janczizikow/sleek) | janczizikow/sleek@v0.1-alpha | default |
+| [Oscailte — A Jekyll theme](https://github.com/coogie/oscailte) | coogie/oscailte@3.0.3 | home |
 
 ## Configure your GitHub Pages website for blogging
 
-According to Jekyll's documentation, blogging is baked into Jekyll. To create a post:
-
-- create a file for the post in the `_posts` folder
-- give the file a name with the following format: `yyyy-MM-dd-title.md`
-- add the following lines as the first lines of the file
-  ```
-  ---
-  layout: blog
-  ---
-  ```
-There are two things you have to do when you want to use your website for blogging:
-
-- 
+Jekyll makes it easy to use your GitHub hosted website for blogging. All you have to do is create your post in the `_posts` folder and use the format `yyyy-MM-dd-title.md` for the name of a post file.
 
 [1]: https://pages.github.com
 [2]: https://jekyllrb.com/
