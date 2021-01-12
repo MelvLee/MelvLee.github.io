@@ -66,7 +66,7 @@ The themes in the table listed above have a layout template that displays an ind
 - open the *index.md* file and click on the **pencil** icon to edit the file
 - add the following [front matter](https://jekyllrb.com/docs/front-matter/) lines at the beginning of the file. Use the name in the *homepage layout* column in the table listed above as the layout template
 
-  ``` front matter
+  ```
   ---
   layout: home
   ---
