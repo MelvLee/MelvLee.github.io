@@ -1,5 +1,6 @@
 ---
 layout: post
+css: ['/assets/css/style.css']
 tags: [Jekyll, GitHub Pages]
 ---
 
