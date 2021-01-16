@@ -62,9 +62,9 @@ To create your first blog post
 
 Behind the scenes, Jekyll will now regenerate the content for your website. After a few seconds your newly created blog post will be available at `https://\<your-username>.github.io/2021/01/01/my-first-blog-post`.
 
-## Configure your home page to display a list of the posts on your website
+## Configure your home page to display a list of post entries
 
-The themes listed in the table above have a layout template that can be used to generate a list of your posts on the home page of your website. The name of the home page template is shown in the *homepage layout* column.
+The themes listed in the table above have a layout template that can be used to generate a list of your post entries on the home page of your website. The name of the home page template is shown in the *homepage layout* column.
 
 Jekyll looks for YAML [front matter][7] in a HTML or markdown file to determine which layout template must be used for the file. YAML front matter consists of YAML between triple dashed lines and inserted at the beginning of a HTML or markdown file. Below is an example of YAML front matter used to indicate the layout template:
 
@@ -74,15 +74,15 @@ layout: <name layout template>
 ---
 ```
 
-To display a list of posts available on your website:
+To display a list of post entries on the home page of your website:
 
 - navigate to the **Code** page of your repository
 - open the *index.md* file and click on the **pencil** icon to edit the file
-- delete all the content of the file, if you only want to display a list of posts on your home page
+- delete all the content of the file, if you only want to display a list of post entries
 - add the front matter listed above at the beginning of the file
 - click <kbd>Commit changes</kbd> to save the changes made to the file
 
-Wait a few seconds for Jekyll to regenerate your website and navigate to the home page of your website to see a list of your posts.
+Wait a few seconds for Jekyll to regenerate your website and navigate to the home page of your website to see a list of your post entries.
 
 ## Conclusion
 
