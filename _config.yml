@@ -1,2 +1,7 @@
 remote_theme: daattali/beautiful-jekyll@5.0.0
 title: iSwish
+author: Melvin Lee
+
+navbar-col: "#3F51B5"
+navbar-text-col: "#000000"
+navbar-border-col: "#DDDDDD"
