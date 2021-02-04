@@ -3,5 +3,5 @@ layout: page
 title: Limitless
 ---
 
-- Sun List
-- Peg Method
+- [Sun List](sun-list.md)
+- [Peg Method](peg-method.md)
