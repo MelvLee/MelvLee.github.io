@@ -26,7 +26,7 @@ openapi: 3.0.3
 
 You will now see that the entered text is underlined with a squiggly line, which indicates there are issues. To see the issues, hover your mouse over the text or open the **problems** panel.
 
-![Spectral VS Code Extension](../img/spectral-vscode.png)
+![Spectral VS Code Extension](/img/spectral-vscode.png)
 
 ## Setup Spectral CLI for your Web API development project
 
@@ -149,11 +149,11 @@ Also, create a script named `oas:lint` in the `package.json` file to simplify th
 
 Push the files we have created up to now to GitHub, then navigate to the website of the GitHub repository and open the **Actions** page to get an overview of the runs of the workflows of your GitHub repository.
 
-![GitHub Actions workflows](../img/spectral-github-actions.png)
+![GitHub Actions workflows](/img/spectral-github-actions.png)
 
 Click on a workflow run to see the summary of the run
 
-![GitHub Actions workflow run summary](../img/spectral-github-actions-summary.png)
+![GitHub Actions workflow run summary](/img/spectral-github-actions-summary.png)
 
 In the run summary, the same Spectral warnings are shown as in VS Code and in Spectral CLI.
 
