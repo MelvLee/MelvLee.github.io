@@ -1,6 +1,7 @@
 remote_theme: daattali/beautiful-jekyll@5.0.0
 title: iSwish
 author: Melvin Lee
+description: Learning to craft right software right
 
 navbar-col: "#3F51B5"
 navbar-text-col: "#FFFFFF"
